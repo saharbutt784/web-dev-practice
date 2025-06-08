@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food, LLC</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <style>
+      body {
+        font-size: 16px;
+        color: #000;
+        background-color: #fff;
+        font-family: "Oxygen", sans-serif;
+      }
+
+      /** HEADER **/
+      #header-nav {
+        background-color: #9e3636f8;
+        border-radius: 0;
+        border: 0;
+      }
+
+      .navbar-brand {
+        padding-top: 25px;
+      }
+
+      .navbar-brand h1 {
+        /* Restaurant name */
+        font-family: "Courier New", Courier, monospace;
+        color: #000;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        margin-bottom: 10px;
+        line-height: 0.75;
+        text-align: left;
+      }
+
+      .navbar-brand a:hover,
+      .navbar-brand a:focus {
+        text-decoration: none;
+      }
+
+      #nav-list {
+        margin-top: 10px;
+        background-color: #9e3636f8;
+      }
+
+      #nav-list a {
+        color: #000;
+        text-align: center;
+      }
+
+      #nav-list a:hover {
+        background: #e7e7e7;
+      }
+
+      #nav-list a span {
+        font-size: 1.8em;
+      }
+
+      .navbar-header button.navbar-toggle,
+      .navbar-header .icon-bar {
+        border: 1px solid #000;
+      }
+
+      .navbar-header button.navbar-toggle {
+        clear: both;
+        margin-top: -30px;
+      }
+
+      /** MAIN CONTENT **/
+      #main-content {
+        width: 92%;
+        margin-bottom: 30px;
+      }
+
+      #menu-categories-title {
+        margin-bottom: 30px;
+      }
+
+      .category-tile {
+        position: relative;
+        border: 2px solid #000;
+        overflow: hidden;
+        margin-bottom: 30px;
+        background-color: #dfc87a;
+        color: #000;
+        padding: 10px;
+      }
+
+      .category-tile h3 {
+        text-align: center;
+        margin-top: 0;
+      }
+
+      .category-tile a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a href="index.html"><h1>Food, LLC</h1></a>
+            </div>
+
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#collapsable-nav"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+              <li>
+                <a href="#Chicken Karahi">Chicken Karahi</a>
+              </li>
+              <li>
+                <a href="#Adana Kebabs">Adana Kebabs</a>
+              </li>
+              <li>
+                <a href="#Chicken Biryani">Chicken Biryani</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="main-content" class="container">
+      <h2 id="menu-categories-title" class="text-center">Our Menu</h2>
+
+      <section class="row">
+        <div class="col-xs-12">
+          <div class="category-tile">
+            <h3 id="Chicken Karahi">Chicken Karahi</h3>
+            <p>
+              Chicken Karahi is a quintessential dish deeply rooted in the
+              culinary traditions of Pakistan and North India, celebrated for
+              its fiery, aromatic, and intensely flavorful profile. This iconic
+              dish derives its name from the karahi, a thick, circular, and deep
+              cooking vessel—similar to a wok but with steeper
+              sides—traditionally made of cast iron or steel, which is essential
+              for achieving the dish’s signature high-heat cooking method. The
+              karahi’s unique shape allows for even heat distribution, ensuring
+              that the chicken cooks quickly while absorbing the bold spices and
+              retaining its succulence. At its core, Chicken Karahi is a
+              harmonious blend of simplicity and complexity, relying on a
+              handful of fresh ingredients and a carefully balanced mix of
+              spices to create a dish that is both rustic and sophisticated. The
+              foundation of its flavor comes from ripe tomatoes, which are
+              cooked down until they break completely, forming a thick, velvety
+              gravy that coats each piece of chicken. Fresh ginger and garlic,
+              either as a paste or finely crushed, provide a pungent, earthy
+              base, while slit green chilies infuse the dish with a vibrant,
+              lingering heat that can be adjusted to suit individual
+              preferences. The spice blend used in Chicken Karahi is what truly
+              sets it apart, featuring a combination of whole and ground spices
+              that are toasted to release their essential oils before being
+              incorporated into the dish. Cumin seeds sizzled in hot oil or ghee
+              provide a nutty aroma, while coriander powder adds a citrusy,
+              slightly sweet undertone. Turmeric lends its golden hue and subtle
+              bitterness, and red chili powder brings the characteristic heat
+              that defines the dish. A final sprinkle of garam masala—a warm,
+              fragrant mix of cinnamon, cardamom, cloves, and black pepper—ties
+              everything together, adding depth and complexity. Some variations
+              also include a touch of dried fenugreek leaves (kasuri methi),
+              which impart a slightly bitter, herbal note that balances the
+              richness of the tomatoes and meat. The dish is often finished with
+              a generous garnish of fresh cilantro, julienned ginger, and
+              additional green chilies, which not only enhance the visual appeal
+              but also add bursts of freshness and crunch. While the classic
+              version of Chicken Karahi is robust and spicy, regional and
+              personal adaptations abound. In some households, a splash of cream
+              or a dollop of butter is stirred in at the end for a richer, more
+              indulgent texture, while others prefer to keep it lean and fiery.
+              In parts of Khyber Pakhtunkhwa (Pakistan), the dish might be made
+              with a higher ratio of tomatoes, resulting in a tangier, saucier
+              consistency, whereas in Punjab, it’s often cooked with bone-in
+              chicken for deeper flavor and served with a thicker, more reduced
+              gravy. Street-style karahi, commonly found in bustling food
+              markets, is typically prepared in massive karahi pots over open
+              flames, with chefs theatrically tossing the ingredients to ensure
+              even cooking and caramelization. Serving Chicken Karahi is an
+              experience in itself—it’s traditionally brought to the table in
+              the same karahi it was cooked in, still sizzling and bubbling,
+              with a stack of freshly baked naan or tandoori roti on the side to
+              scoop up the flavorful gravy. Steamed basmati rice or fragrant
+              pulao can also accompany it, though the dish truly shines when
+              paired with warm, pillowy bread that soaks up every bit of the
+              sauce. A side of cooling raita (yogurt with cucumbers and mint) or
+              a simple onion and lemon salad helps temper the heat, while a
+              squeeze of fresh lime juice can elevate the tanginess. Whether
+              enjoyed at a festive gathering, a roadside dhaba (eatery), or a
+              cozy family dinner, Chicken Karahi is more than just a meal—it’s a
+              celebration of bold flavors, communal dining, and the timeless art
+              of South Asian cooking. Its enduring popularity lies in its
+              ability to be both comforting and exhilarating, a dish that feels
+              familiar yet exciting with every bite.
+              <br /><br />
+              (End of Chicken Karahi section)
+              <a href="#menu-categories-title">Back to Top</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="category-tile">
+            <h3 id="Adana Kebabs">Adana Kebabs</h3>
+            <p>
+              Adana Kebab is a masterpiece of Turkish cuisine, a fiery and
+              succulent grilled meat dish that takes its name from the vibrant
+              city of Adana in southern Turkey, where it was perfected over
+              centuries. This iconic kebab is distinguished by its coarse,
+              hand-minced lamb—traditionally chopped with a special
+              crescent-shaped knife called a zırh—which gives it a uniquely
+              robust texture that sets it apart from ordinary ground meat
+              kebabs. The magic of Adana Kebab lies in its bold seasoning: a
+              fiery blend of kırmızı pul biber (Turkish red pepper flakes) that
+              delivers a slow-building heat, earthy cumin for depth, and just
+              enough grated onion and garlic to enhance the meat's natural
+              richness without overpowering it. Authentic versions often include
+              a touch of tail fat, which melts during grilling, basting the meat
+              from within and ensuring each bite is impossibly juicy. The
+              preparation is almost ritualistic—the spiced meat mixture is
+              kneaded until sticky, then skillfully pressed onto flat metal
+              skewers by hand, creating long, tapered cylinders that cook evenly
+              over the intense heat of a mangal (charcoal grill). As the kebabs
+              sizzle over glowing embers, they develop a smoky, slightly charred
+              crust while remaining tender inside, their aromas mingling with
+              the scent of grilling peppers and tomatoes that typically
+              accompany them. Served piping hot on warm lavash or fresh pide
+              bread, the kebabs are traditionally garnished with sumac-dusted
+              red onions for a tart contrast, chopped parsley for freshness, and
+              perhaps a dollop of cooling yogurt to temper the heat. The
+              experience of eating Adana Kebab is immersive—tearing off a piece
+              of bread to wrap around a smoky, spice-crusted portion of lamb,
+              perhaps with a grilled pepper or a squeeze of lemon, each bite
+              revealing layers of flavor from the carefully balanced spices and
+              the primal smokiness of the fire. In Turkey, it's often paired
+              with ayran, a frothy yogurt drink, or şalgam, the bracingly sour
+              fermented turnip juice that locals swear by to cut through the
+              richness. More than just a meal, Adana Kebab is a celebration of
+              Turkish grilling traditions, where the quality of the meat, the
+              skill of the butcher, and the intensity of the fire all play
+              starring roles. Whether enjoyed at a bustling Adana ocakbaşı
+              (grill house), where skewers are flipped by masters wielding long
+              swords, or recreated at home with care, this kebab embodies the
+              soul of Anatolian cooking—bold, unpretentious, and deeply
+              satisfying. Its enduring popularity across Turkey and beyond
+              speaks to its perfect balance of heat, smoke, and meaty
+              indulgence, making it a must-try for anyone seeking the true
+              flavors of Turkish cuisine.
+              <br /><br />
+              (End of Adana Kebab section)
+              <a href="#menu-categories-title">Back to Top</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="category-tile">
+            <h3 id="Chicken Biryani">Chicken Biryani</h3>
+            <p>
+              Chicken Biryani is a regal dish that stands as the epitome of
+              aromatic, layered, and spiced perfection in South Asian cooking,
+              with deep roots in Mughlai cuisine and regional variations across
+              India, Pakistan, and Bangladesh. This celebratory dish is a
+              harmonious marriage of fragrant basmati rice and tender, spiced
+              chicken, slow-cooked together in the dum pukht style (sealed with
+              dough or a tight lid) to allow the flavors to meld into an
+              irresistible symphony of taste and aroma. What sets biryani apart
+              from other rice dishes is its meticulous layering technique, where
+              partially cooked rice is alternated with marinated chicken,
+              caramelized onions, fresh herbs, and a blend of whole and ground
+              spices, creating a gradient of flavors in every spoonful. The
+              foundation of its taste lies in the marinade—yogurt-tenderized
+              chicken infused with ginger, garlic, turmeric, chili, and a
+              bouquet of spices like cumin, coriander, garam masala, and
+              sometimes a touch of saffron or kewra water for floral depth. The
+              rice, parboiled with whole spices (bay leaves, cardamom, cinnamon,
+              and cloves), remains separate yet absorbs the essence of the
+              chicken and its juices during the final slow-cooking process. A
+              defining moment in biryani preparation is the "kewra" or saffron
+              drizzle—golden strands of saffron soaked in warm milk or
+              rose-kewra water scattered over the top layer, imparting a royal
+              hue and intoxicating fragrance. The dish is then sealed tightly to
+              trap steam, allowing the chicken to cook gently in its own juices
+              while the rice soaks up every drop of flavor. Regional variations
+              abound: Hyderabadi biryani (with its kachchi method, layering raw
+              marinated chicken with rice), Lucknowi biryani (milder, with a
+              focus on delicate spices), and Sindhi biryani (potato-studded and
+              tangy with tomatoes) each offer distinct experiences. When the
+              seal is finally broken at the table, the burst of fragrant steam
+              is nothing short of dramatic, revealing golden rice, succulent
+              chicken, and crispy birista (fried onions) mingled with streaks of
+              spice. Served with mirchi ka salan (chili curry), raita (yogurt
+              with cucumbers and mint), or a simple boiled egg, Chicken Biryani
+              is more than a meal—it’s an event, a dish reserved for weddings,
+              festivals, and gatherings where its grandeur matches the occasion.
+              The first bite delivers a cascade of textures and tastes: the
+              fluffiness of rice, the heat of spices, the sweetness of
+              caramelized onions, and the melt-in-the-mouth chicken, all tied
+              together by the lingering perfume of saffron and kewra. Whether
+              enjoyed at a bustling street-side stall or prepared with love at
+              home, Chicken Biryani remains an enduring symbol of South Asia’s
+              culinary opulence, a dish that demands patience, rewards skill,
+              and never fails to dazzle the senses.
+              <br /><br />
+              (End of Chicken Biryani section)
+              <a href="#menu-categories-title">Back to Top</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+<!-- <style>
+
+</style> -->
